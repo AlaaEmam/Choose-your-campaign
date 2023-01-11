@@ -1,0 +1,545 @@
+*{
+color: #811a5a !important; 
+}
+
+/* 
+|‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+| Main container
+|‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+! 
+*/
+
+body{
+  background-image: linear-gradient(-90deg, #d4d9f7, #d4f6e6,  #d4d9f7);
+}
+
+.box{
+  width: 90%;
+  margin-top: 100px;
+  border: 5px solid rgba(255, 255, 255, 0.209);
+  border-radius: 5px;
+  box-shadow: 0px 0px 64px 0px #a4a4a43b;
+  background-image: linear-gradient(-90deg, #dfe4f8, #dff9ee,  #dae0f8);
+
+}
+
+/* 
+|‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+| Main Title
+|‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+! 
+*/
+
+.header-title{
+  font-size: 30px;
+  border-bottom:  0.5px solid #811a5a;
+  margin-bottom: 30px;
+  font-weight: bold; 
+}
+.header-paragraph{
+  font-size: 20px;
+}
+
+/* 
+|‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+| Table
+|‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+! 
+*/
+
+.table{
+  font-weight: bold  !important ; 
+}
+.table-title{
+  font-size: 18px !important;
+ 
+  text-align: center;
+}
+.time-line{
+  font-size: 10px !important;
+  font-weight: bold; 
+  color: grey  !important ;
+}
+
+/* 
+|‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+| Progress
+|‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+! 
+*/
+
+.progress{
+  border-radius: 0px;
+  height: 25px;
+  background-color: transparent;
+}
+.progress .progress-bar{
+    border-top-right-radius: 0rem !important; 
+    border-bottom-right-radius: 0rem !important;
+    margin-left: 2px;
+}
+.progress .progress-bar:first-child {
+  border-top-left-radius: 0rem !important;
+  border-bottom-left-radius: 0rem !important;
+}
+
+/* 
+|‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+| Toggle Switch
+|‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+! 
+*/
+.toggle-switch {
+  position: relative;
+  margin-left: 114px;
+  margin-bottom: 10px;
+  width: 50px;
+}
+
+.toggle-switch-lable {
+  font-weight: 600;
+  padding-right: 5px;
+}
+
+.toggle-switch *,
+.toggle-switch *:before,
+.toggle-switch *:after {
+  box-sizing: border-box;
+}
+
+.toggle-switch input[type="checkbox"] {
+  top: 0;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+}
+
+.toggle-switch input[type="checkbox"][disabled] ~ label {
+  pointer-events: none;
+  color: rgba(234, 0, 48, 0.5);
+}
+
+.toggle-switch
+  input[type="checkbox"][disabled]
+  ~ label
+  .toggle-switch-switcher {
+  opacity: 0.4;
+}
+
+.toggle-switch
+  input[type="checkbox"]:checked
+  ~ label
+  .toggle-switch-switcher:before {
+  left: 0;
+  content: attr(data-unchecked);
+}
+
+.toggle-switch label {
+  display: flex;
+  font-size: 14px;
+  user-select: none;
+  position: relative;
+  align-items: center;
+}
+
+.toggle-switch label .toggle-switch__label-text {
+  flex: 1;
+  padding-left: 32px;
+}
+
+.toggle-switch label .toggle-switch-switcher::before {
+  top: 0;
+  left: 67px;
+  width: 67px;
+  padding: 0 12px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 36px;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  content: attr(data-checked);
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.toggle-switch label .toggle-switch-switcher:after {
+  top: 2px;
+  left: 2px;
+  z-index: 5;
+  width: 65px;
+  color: #453396;
+  font-size: 12px;
+  font-weight: 700;
+  background: #fff;
+  line-height: 32px;
+  border-radius: 2px;
+  text-align: center;
+  position: absolute;
+  text-transform: uppercase;
+  content: attr(data-unchecked);
+  transform: translate3d(0, 0, 0);
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0, 1, 0.5, 1);
+  transition: transform 0.3s cubic-bezier(0, 1, 0.5, 1);
+}
+
+.toggle-switch input[type="checkbox"]:focus ~ label .toggle-switch-switcher,
+.toggle-switch input[type="checkbox"]:hover ~ label .toggle-switch-switcher {
+  background-color: #453396;
+}
+
+.toggle-switch
+  input[type="checkbox"]:focus
+  ~ label
+  .toggle-switch-switcher:after,
+.toggle-switch
+  input[type="checkbox"]:hover
+  ~ label
+  .toggle-switch-switcher:after {
+  color: #b70026;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4);
+}
+
+.toggle-switch input[type="checkbox"]:hover ~ label {
+  color: #453396;
+}
+
+.toggle-switch input[type="checkbox"]:checked ~ label:hover {
+  color: #55bc49;
+}
+
+.toggle-switch input[type="checkbox"]:checked ~ label .toggle-switch-switcher {
+  background-color: #70c767;
+}
+
+.toggle-switch
+  input[type="checkbox"]:checked:focus
+  ~ label
+  .toggle-switch-switcher,
+.toggle-switch
+  input[type="checkbox"]:checked:hover
+  ~ label
+  .toggle-switch-switcher {
+  background-color: #5fc054;
+}
+
+.toggle-switch
+  input[type="checkbox"]:checked:focus
+  ~ label
+  .toggle-switch-switcher:after,
+.toggle-switch
+  input[type="checkbox"]:checked:hover
+  ~ label
+  .toggle-switch-switcher:after {
+  color: #47a43d;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4);
+}
+
+.toggle-switch
+  input[type="checkbox"]:checked
+  ~ label
+  .toggle-switch-switcher:after {
+  color: #4fb743;
+  content: attr(data-checked);
+  transform: translate3d(65px, 0, 0);
+}
+
+.toggle-switch label .toggle-switch-switcher {
+  height: 36px;
+  flex: 0 0 134px;
+  position: relative;
+  border-radius: 4px;
+  background-color: #453396;
+  transition: background-color 0.3s cubic-bezier(0, 1, 0.5, 1);
+}
+
+.toggle-switch label .toggle-switch-switcher:hover:after {
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4);
+}
+
+.toggle-switch.toggle-switch--size-small
+  input[type="checkbox"]:focus
+  ~ label
+  .toggle-switch-switcher:after,
+.toggle-switch.toggle-switch--size-small
+  input[type="checkbox"]:hover
+  ~ label
+  .toggle-switch-switcher:after {
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+.toggle-switch.toggle-switch--size-small
+  input[type="checkbox"]:checked
+  ~ label
+  .toggle-switch-switcher:after {
+  transform: translate3d(44px, 0, 0);
+}
+
+.toggle-switch.toggle-switch--size-small
+  input[type="checkbox"]:checked:focus
+  ~ label
+  .toggle-switch-switcher:after,
+.toggle-switch.toggle-switch--size-small
+  input[type="checkbox"]:checked:hover
+  ~ label
+  .toggle-switch-switcher:after {
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+.toggle-switch.toggle-switch--size-small label {
+  font-size: 13px;
+}
+
+.toggle-switch.toggle-switch--size-small label .toggle-switch-switcher {
+  height: 28px;
+  flex: 0 0 90px;
+  border-radius: 2px;
+}
+
+.toggle-switch.toggle-switch--size-small label .toggle-switch-switcher:before {
+  left: -45px;
+  font-size: 10px;
+  line-height: 28px;
+  width: 45px;
+  padding: 0 12px;
+}
+
+.toggle-switch.toggle-switch--size-small label .toggle-switch-switcher:after {
+  top: 1px;
+  left: 1px;
+  border-radius: 1px;
+  width: 44px;
+  line-height: 26px;
+  font-size: 10px;
+}
+
+.toggle-switch.toggle-switch--size-small
+  label
+  .toggle-switch-switcher:hover:after {
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+}
+@media screen and (max-width: 768px) {
+
+  .toggle-switch label .toggle-switch-switcher {
+    height: 36px;
+    flex: 0 0 134px;
+    position: relative;
+    border-radius: 4px;
+    background-color: #453396;
+    transition: background-color 0.3s cubic-bezier(0, 1, 0.5, 1);
+    left: -111px;
+  }
+ 
+
+}
+
+/* 
+|‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+| Radio Button and Checkbox
+|‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+! 
+*/
+
+.radio,
+.checkbox {
+  position: relative;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+  margin: -.4em .4em 0 0;
+}
+
+.radio > label,
+.checkbox > label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1em;
+  height: 1em;
+  border: solid 1px #453396;
+  border-radius: .1em;
+  background: #eee;
+  white-space: nowrap;
+}
+
+.radio > label:hover,
+.checkbox > label:hover {
+  box-shadow: 0 0 1px 1px rgba(0,0,0,.05),
+    inset 0 0 1px 1px rgba(255,255,255,.1);
+}
+
+.radio > label {
+  border-radius: .5em;
+}
+
+.radio > :checked + label:after,
+.checkbox > :checked + label:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  content: ' ';
+  background: #453396;
+  color: white !important;
+  width: .5em;
+  height: .5em;
+  border-radius: .1em;
+}
+
+.radio > :checked + label:after {
+  border-radius: .25em;
+}
+
+.radio input,
+.checkbox input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+/*
+ * Groups of radio buttons and checkboxes
+ */
+
+.radio-group .radio,
+.checkbox-group .checkbox {
+  width: auto;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.radio-group .radio > label,
+.checkbox-group .checkbox > label {
+  position: relative;
+  width: 47px;
+  height: 30px;
+  text-align: center;
+  margin: -10px -.2em;
+  border-radius: 0;
+  font-size: 12.5px;
+  border-radius: 0;
+}
+
+.radio-group .radio:first-child > label,
+.checkbox-group .checkbox:first-child > label {
+  margin-left: 0;
+  border-radius: .5em 0 0 .5em;
+}
+
+.radio-group .radio:last-child > label,
+.checkbox-group .checkbox:last-child > label {
+  margin-right: 0;
+  border-radius: 0 .5em .5em 0;
+}
+
+.radio-group .radio > :checked + label,
+.checkbox-group .checkbox > :checked + label{
+  background: #453396;
+  color: white !important;
+}
+
+.radio-group .radio > :checked + label:after,
+.checkbox-group .checkbox > :checked + label:after {
+  content: none;
+}
+
+/* 
+|‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+| RED TEXT
+|‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+! 
+*/
+
+.small-text{
+  color: red !important; 
+  display: flex; 
+  padding: 0 16px;  
+  font-weight: bold;
+}
+
+/* 
+|‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+| RANGE
+|‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+! 
+*/
+
+.slider {
+  align-items: center;
+text-align: right;
+  }
+.slider label {
+  font-size: 12px;
+  padding-left: 28px;
+}
+.radio-group-1 label{
+  font-size: 12px !important;
+  padding-left: 10px !important;
+}
+   
+.slider input[type="range"] {
+  -webkit-appearance: none !important; 
+  width: 229px; 
+  height: 2px;
+  margin-top: 6px;
+
+  background:rgb(69 51 150) !important;
+  border-radius: 150px;
+  outline: none;
+}
+.slider input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    width: 15px;
+    height:15px;
+    transform: translate(-50%,-50%);
+    background: rgb(69 51 150);
+    border: 2px solid rgb(69 51 150);
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 5px !important;
+}
+     
+.slider input[type="range"]::-webkit-slider-thumb:hover {
+  background: rgb(53, 39, 115);
+}
+    
+/* 
+|‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+| Table Total Part
+|‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+! 
+*/
+.table .cart-price {
+  text-align: right;
+  float: right;
+  margin-top: 18px;
+}
+
+
+.table .cart-price .total-price td{
+  color: #1a9e87 !important;
+  font-size: 19px;
+}
+
+.table .cart-price .total-all td {
+  color: #7b7b7b !important;
+  font-size: 19px;
+}
+
+.text-order{
+  display: block;
+  float: right;
+  margin-right: 35%;
+}
+.text-order .btn{
+  width: 248px;
+  height: 48px;
+  font-size: 20px;
+  background-color: #b70026;
+  border-radius: 8px;
+  margin: 27px;
+  color: white !important;
+  }
